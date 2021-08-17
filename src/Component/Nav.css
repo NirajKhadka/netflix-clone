@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 1;
+}
+.netflix__logo {
+  position: fixed;
+  object-fit: contain;
+  height: 80px;
+  left: 20px;
+  margin-top: -20px;
+}
+.smiley_logo {
+  position: fixed;
+  right: 30px;
+  max-height: 30px;
+  object-fit: contain;
+}
+.nav__show {
+  background-color: #111;
+  transition: all 0.5s ease-in;
+  height: 75px;
+}
